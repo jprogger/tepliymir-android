@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.tepliymir</groupId>
+    <artifactId>tepliymir-android</artifactId>
+    <packaging>apk</packaging>
+    <version>0.0.1</version>
+
+    <repositories>
+        <repository>
+            <id>com.jakewharton</id>
+            <url>http://r.jakewharton.com/maven/release</url>
+        </repository>
+    </repositories>
+
+    <properties>
+        <app.version.code>1</app.version.code>
+        <app.version.name>1.0.0-SNAPSHOT</app.version.name>
+        <platform.version>4.0.3_r3</platform.version>
+        <android.sdk.path>/opt/android-sdk-macosx/</android.sdk.path>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>android</artifactId>
+            <version>4.0.1.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>support-v4</artifactId>
+            <version>r7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.libphonenumber</groupId>
+            <artifactId>libphonenumber</artifactId>
+            <version>4.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.android.maps</groupId>
+            <artifactId>maps</artifactId>
+            <version>15_r2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.actionbarsherlock</groupId>
+            <artifactId>actionbarsherlock</artifactId>
+            <version>4.2.0</version>
+            <type>apklib</type>
+        </dependency>
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>annotations</artifactId>
+            <version>4.1.1.4</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
